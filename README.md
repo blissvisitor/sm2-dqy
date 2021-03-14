@@ -11,7 +11,10 @@
 ```javascript
 import { Encrypt, Decrypt, doEncrypt, doDecrypt, generateKey } from '@/utils/sm2crypto'
 
-let { publicKey, privateKey } = generateKey();
+### 生成public  private
+let keys= generateKey();
+let pub2 = keys.publicKey, key2 = keys.privateKey;
+### 加解密测试
 let pub = '8ADA326609F5FA5A0AF5075A0345E39EF979940233A44AB685E1371E7835BDD0B66B0677E33C7F07422AEF858328D121B23DEB3C561DA73029F6A587961A97AC';
 let privateK = '7F1595397CD118142FD6F916E7CD23E5D7911298534BA504034F99450D553FD5';
 let enc = Encrypt('你好水电费水电费第三方', pub);
