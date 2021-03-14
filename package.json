@@ -1,0 +1,23 @@
+{
+  "name": "sm2-dqy",
+  "version": "1.0.1",
+  "description": "//依赖sm-crypto npm install --save sm-crypto",
+  "main": "sm2crypto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blissvisitor/sm2-dqy.git"
+  },
+  "keywords": [
+    "sm2",
+    "国密"
+  ],
+  "author": "dqy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blissvisitor/sm2-dqy/issues"
+  },
+  "homepage": "https://github.com/blissvisitor/sm2-dqy#readme"
+}
